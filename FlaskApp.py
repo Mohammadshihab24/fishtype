@@ -31,7 +31,7 @@ def predict():
     prediction = classifier.predict(final_features)
 
     
-    return render_template('index.html', prediction_text='The flower belong to species {}'.format(prediction))
+    return render_template('index.html', prediction_text='The fish belongs to species {}'.format(prediction))
     
     
 
